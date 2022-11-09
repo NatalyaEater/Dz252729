@@ -15,12 +15,11 @@ int SumNumber(int randomnum)
  int i = 0;
  int sum=0;
  int ost=0;
- while (randomnum >= i)
+ while (randomnum >i)
     {
  ost=randomnum%10;
     sum=sum+ost;
     randomnum=randomnum/10;
- i=i+1;
     }
  return sum;
 }
